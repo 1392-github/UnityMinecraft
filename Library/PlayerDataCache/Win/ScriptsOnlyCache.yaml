@@ -144,7 +144,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 82340ddd533a7a56d6fd75226a9f6303
+      Hash: 3ec289e9cbe8b59541d1dfce1fb11c7f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapGenerator
@@ -883,4 +883,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/noname/Downloads/UnityMinecraft/0.2/x86/Minecraft.exe
+  playerPath: C:/Users/noname/Downloads/UnityMinecraft/0.3/x86/Minecraft.exe

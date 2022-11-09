@@ -548,6 +548,8 @@ MonoBehaviour:
   grassBlockPrefab: {fileID: 6354641856549880443, guid: 121a1390218547842868e50065e2580d, type: 3}
   dirtPrefab: {fileID: 860561913648787290, guid: 369f62f2a39c6e04395d569391a967bf, type: 3}
   bedrockPrefab: {fileID: 1543852175261655460, guid: ff721bc0a4e19054499e91ad530727d9, type: 3}
+  ironOrePrefab: {fileID: 8214443392773755508, guid: f073680b1886f8d4b9ba3f1fa80edc5f, type: 3}
+  diamondOrePrefab: {fileID: 6410864843946777017, guid: 53195b47ef7b2e241a7f01b2ceded524, type: 3}
   MapSize: 0
   Height: 0
 --- !u!1 &1499210329
@@ -983,7 +985,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pre-Alpha 0.2
+  m_Text: 'Pre-Alpha 0.3
 
 '
 --- !u!222 &2041790439
