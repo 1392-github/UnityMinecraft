@@ -354,6 +354,8 @@
 "Assets/Code/CameraController.cs"
 "Assets/Code/PlayerController.cs"
 "Assets/MapGenerator.cs"
+"Assets/MapGenRNG.cs"
+"Assets/SeedOK.cs"
 -langversion:9.0
 
 /deterministic

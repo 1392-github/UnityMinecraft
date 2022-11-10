@@ -13,6 +13,7 @@ public class MapGenerator : MonoBehaviour
     public GameObject bedrockPrefab;
     public GameObject ironOrePrefab;
     public GameObject diamondOrePrefab;
+    public MapGenRNG RNG;
     public int MapSize;
     public int Height;
     // Start is called before the first frame update
@@ -27,7 +28,7 @@ public class MapGenerator : MonoBehaviour
                 GameObject dirt2 = Instantiate(dirtPrefab);
                 for (int i = 61; i > 1; i--)
                 {
-                    int BlockRate = Random.Range(0, 100); // 0 ~ 99
+                    int BlockRate = RNG.IntRandom(0, 100); // 0 ~ 99
                     GameObject block;
                     if (BlockRate == 0) // 1%
                     {
@@ -55,6 +56,7 @@ public class MapGenerator : MonoBehaviour
     }
     void Start()
     {
+        RNG = GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>();
         for (int x = -MapSize * 16; x <= MapSize * 16; x += 16)
         {
             for (int z = -MapSize * 16; z <= MapSize * 16; z += 16)
