@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapGenRNG : MonoBehaviour
 {
+    public int? seed = null;
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -12,6 +13,7 @@ public class MapGenRNG : MonoBehaviour
     {
         Random.InitState(seed);
         Debug.Log($"Seed - {seed}");
+        this.seed = seed;
     }
     public int IntRandom(int min, int max)
     {

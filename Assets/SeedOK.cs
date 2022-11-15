@@ -10,7 +10,15 @@ public class SeedOK : MonoBehaviour
     {
         if (TextInput.GetComponent<Text>().text != "")
         {
-            GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().SetSeed(int.Parse(TextInput.GetComponent<Text>().text));
+            try
+            {
+                GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().SetSeed(int.Parse(TextInput.GetComponent<Text>().text));
+            }
+            catch (System.Exception)
+            {
+                
+                GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().SetSeed(TextInput.GetComponent<Text>().text.GetHashCode());
+            }
         }
         SceneManager.LoadScene("MainScene");
     }

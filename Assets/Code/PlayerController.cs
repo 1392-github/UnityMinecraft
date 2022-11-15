@@ -11,10 +11,19 @@ public class PlayerController : MonoBehaviour
     public Text PosX;
     public Text PosY;
     public Text PosZ;
+    public Text Seed;
     // Start is called before the first frame update
     void Start()
     {
         rigid = gameObject.GetComponent<Rigidbody>();
+        if (GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().seed == null)
+        {
+            Seed.text = "seed = Random Seed";
+        }
+        else
+        {
+            Seed.text = $"seed = {GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().seed}";
+        }
     }
 
     // Update is called once per frame
