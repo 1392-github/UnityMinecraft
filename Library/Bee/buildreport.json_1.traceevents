@@ -1,530 +1,528 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1668510780017757, "dur": 2132199, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510780019097, "dur": 25535, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510780044871, "dur": 85857, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510780130776, "dur": 596604, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510780727382, "dur": 1412113, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510782139514, "dur": 10442, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510790062224, "dur": 2837291, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510790062463, "dur": 13549, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510790076015, "dur": 45730, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510790121748, "dur": 665555, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510790787308, "dur": 2101192, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510792888502, "dur": 11012, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510792901037, "dur": 30, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512173042210, "dur": 553501, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512173043424, "dur": 23459, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512173067014, "dur": 518633, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512173585665, "dur": 10046, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512180530488, "dur": 2503943, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512180530828, "dur": 14455, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512180545286, "dur": 31131, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512180576453, "dur": 544516, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512181120970, "dur": 1903352, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512183024324, "dur": 10107, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512183035625, "dur": 28, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1668510790331105, "dur": 445702, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668510790332054, "dur": 57617, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668510790758445, "dur": 5329, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668510790763778, "dur": 13014, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668510790764461, "dur": 11181, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668510790781734, "dur": 1207, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668510790781003, "dur": 1963, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510792901282, "dur": 588, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512180733798, "dur": 370643, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512180735590, "dur": 69856, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512181087533, "dur": 4888, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512181092425, "dur": 12002, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512181093177, "dur": 10273, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512181108980, "dur": 1316, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668512181108236, "dur": 2091, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512183035858, "dur": 688, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1668510790838683, "dur":2034, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510790840735, "dur":115, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1668510790840870, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1668510790840900, "dur":530, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1668510790841498, "dur":907, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510790842405, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882074, "dur":209, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882283, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882293, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882294, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882300, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882301, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882306, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882307, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882312, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882313, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882317, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882319, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882323, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882324, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882329, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882330, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882336, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882347, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792882350, "dur":2889, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1668510790842218, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510790842420, "dur":12106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510790854526, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668510790854740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510790865313, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668510790868064, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1668510790868878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510790868889, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1668510790872590, "dur":34075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510790906673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510790907182, "dur":145056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791052344, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791052454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791052461, "dur":118373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791170942, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791171047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791171054, "dur":149599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791320759, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791320859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791320866, "dur":277007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791598026, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791598169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791598182, "dur":97378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791695681, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791695795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791695803, "dur":98091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791794042, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791794242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791794258, "dur":97148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791891633, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510791891802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510791891813, "dur":110144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792002056, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792002150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792002157, "dur":111045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792113343, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792113838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792113846, "dur":141859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792255818, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792256069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792256076, "dur":107036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792363213, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792363461, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792363473, "dur":74333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792437904, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792437996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792438003, "dur":51303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792489419, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792489554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792489563, "dur":207616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792697290, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792697386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668510792697424, "dur":119623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668510792817192, "dur":64893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790842218, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790842412, "dur":11930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790854345, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1668510790854631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790860505, "dur":9403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1668510790870120, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1668510790870601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790872412, "dur":6431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1668510790879043, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510790879300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790879933, "dur":83232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510790963273, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510790963406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510790963416, "dur":142729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791106274, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791106443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791106454, "dur":134844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791241508, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791241761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791241776, "dur":151002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791392933, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791393083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791393093, "dur":82001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791475292, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791475458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791475470, "dur":106507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791582125, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791582274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791582284, "dur":260947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791843412, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791843543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791843555, "dur":109114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791952762, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510791952853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510791952861, "dur":110071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792063030, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792063133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510792063140, "dur":122343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792185579, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792185994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510792186001, "dur":286650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792472757, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792472867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510792472874, "dur":64641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792537625, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792537727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510792537734, "dur":93627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792631462, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792631558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510792631567, "dur":115773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792747438, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792747675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668510792747683, "dur":83931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668510792831710, "dur":50379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790842281, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790842424, "dur":11917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790854345, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1668510790854635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790860311, "dur":8377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1668510790868847, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1668510790869080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790869731, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1668510790871672, "dur":2837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1668510790874517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790874532, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1668510790878834, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1668510790879027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790879661, "dur":7093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1668510790886924, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510790887095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790887107, "dur":94819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510790982031, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510790982126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510790982134, "dur":172656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791154885, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791154978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791154984, "dur":146218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791301361, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791301513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791301522, "dur":109348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791411042, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791411194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791411205, "dur":203636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791614940, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791615033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791615042, "dur":97900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791713092, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791713251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791713264, "dur":96941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791810392, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791810546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791810557, "dur":95524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791906269, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510791906375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510791906385, "dur":110737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792017221, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792017338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792017346, "dur":112824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792130273, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792130809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792130816, "dur":140976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792271892, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792272124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792272131, "dur":105031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792377296, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792377569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792377578, "dur":76844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792454525, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792454625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792454632, "dur":160766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792615498, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792615594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792615602, "dur":114949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792730656, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792730755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668510792730763, "dur":134743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668510792865625, "dur":16452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790842315, "dur":115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790842430, "dur":11998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790854430, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1668510790854938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790863129, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1668510790866508, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1668510790866701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790866869, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1668510790871524, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1668510790872150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790872162, "dur":4709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1668510790877053, "dur":29811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510790906869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510790907199, "dur":182065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791089760, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791090064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791090160, "dur":131329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791221591, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791221683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791221690, "dur":151695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791373550, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791373719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791373730, "dur":69734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791443624, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791443771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791443783, "dur":86339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791530267, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791530408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791530418, "dur":149639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791680200, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791680334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791680343, "dur":288139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791968573, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510791968666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510791968673, "dur":110609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792079440, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792079580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510792079592, "dur":139477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792219249, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792219683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510792219693, "dur":115340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792335130, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792335364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510792335371, "dur":185303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792520775, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792520867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510792520874, "dur":77870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792598878, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792599038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510792599048, "dur":114864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792714012, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792714108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668510792714115, "dur":167826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668510792882051, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1668510792882053, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790842344, "dur":91, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790842435, "dur":11908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790854345, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1668510790854936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790862192, "dur":4270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1668510790866622, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1668510790866863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790866872, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1668510790871064, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1668510790871243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790871252, "dur":6342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1668510790877772, "dur":54896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1668510790932673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510790932682, "dur":154983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1668510791087859, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791088140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791088154, "dur":99301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791187603, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791187735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791187745, "dur":152115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791340038, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791340194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791340207, "dur":224666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791564976, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791565073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791565081, "dur":97753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791663102, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791663323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791663337, "dur":115693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791779176, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791779319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791779330, "dur":97782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791877295, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510791877453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510791877466, "dur":324967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792202597, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792202884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510792202891, "dur":116438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792319430, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792319673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510792319680, "dur":86370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792406151, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792406253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510792406261, "dur":177990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792584351, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792584446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668510792584453, "dur":264116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668510792848802, "dur":33279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790842374, "dur":65, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790842439, "dur":11914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790854365, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1668510790854975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790864492, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1668510790868796, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1668510790869018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790869027, "dur":4531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1668510790879496, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510790879951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790880135, "dur":117591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510790997821, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510790997923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510790997931, "dur":141903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791139952, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791140059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510791140068, "dur":141088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791281258, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791281626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510791281633, "dur":227577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791509321, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791509418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510791509426, "dur":251935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791761507, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791761647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510791761659, "dur":99387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791861190, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791861325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510791861337, "dur":125340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791986800, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510791986887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510791986894, "dur":107839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792094833, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792095104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510792095112, "dur":142998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792238208, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792238438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510792238447, "dur":110661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792349280, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792349669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510792349677, "dur":72114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792421884, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792421979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510792421985, "dur":145249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792567400, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792567567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510792567580, "dur":113154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792680861, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792680987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668510792680996, "dur":120532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668510792801620, "dur":80474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510790842392, "dur":52, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510790842444, "dur":12009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510790854455, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1668510790854822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510790859887, "dur":9694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1668510790869807, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1668510790870237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510790870730, "dur":6948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1668510790877864, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft.exe" }}
-,{ "pid":12345, "tid":7, "ts":1668510790878707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510790878715, "dur":141808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft.exe" }}
-,{ "pid":12345, "tid":7, "ts":1668510791020657, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791020805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791020815, "dur":101557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791122499, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791122620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791122627, "dur":139556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791262376, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791262553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791262567, "dur":285778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791548505, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791548648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791548658, "dur":98319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791647082, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791647180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791647187, "dur":99044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791746418, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791746599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791746611, "dur":174530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791921238, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510791921353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510791921361, "dur":111244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792032779, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792032956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792032968, "dur":115490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792148606, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792148750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792148761, "dur":137594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792286455, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792286713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792286719, "dur":104760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792391626, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792391790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792391804, "dur":160593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792552494, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792552586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792552594, "dur":94060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792646752, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792646847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792646855, "dur":116252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668510792763253, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":7, "ts":1668510792763550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792764075, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":7, "ts":1668510792765280, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1668510792765370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792765462, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1668510792766921, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792767026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792767033, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792769182, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1668510792769331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792769340, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1668510792770912, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792771034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792771041, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792772452, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1668510792772581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792772587, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1668510792774474, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":7, "ts":1668510792774818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792774828, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":7, "ts":1668510792776741, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":7, "ts":1668510792776978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792776985, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":7, "ts":1668510792778303, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792778405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792778412, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792779938, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1668510792780075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792780130, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1668510792781742, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792781888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792781896, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668510792783773, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1668510792783874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792783884, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1668510792785801, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1668510792786140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668510792786148, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1668510792787526, "dur":94545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790842409, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790842410, "dur":11921, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790854345, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1668510790854347, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790854877, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1668510790854882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790865168, "dur":5652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1668510790870823, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1668510790871079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790871100, "dur":6208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1668510790877580, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510790877880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510790877891, "dur":211470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791089528, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791089760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791089774, "dur":115258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791205130, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791205229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791205235, "dur":152072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791357435, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791357581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791357588, "dur":70062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791427787, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791427903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791427913, "dur":202433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791630450, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791630545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791630630, "dur":98859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791729636, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791729836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791729847, "dur":96619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791826585, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791826748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791826761, "dur":110012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791936904, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510791937036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510791937044, "dur":110034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792047186, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792047281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792047288, "dur":120278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792167665, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792168089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792168102, "dur":134936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792303140, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792303383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792303390, "dur":201812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792505351, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792505467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792505477, "dur":156906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792662494, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792662599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792662609, "dur":119512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668510792782246, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1668510792782382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792782389, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1668510792784404, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1668510792784555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668510792784563, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.32/x64/Minecraft_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1668510792786411, "dur":95687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668510792886767, "dur":2233, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1668510792902044, "dur": 1268, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668510792901020, "dur": 2334, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1668512181162349, "dur":1771, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512181164129, "dur":75, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668512181164213, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668512181164237, "dur":375, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668512181164653, "dur":699, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512181165352, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987192, "dur":138, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987330, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987340, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987343, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987350, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987351, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987357, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987359, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987365, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987367, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987373, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987374, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987379, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987381, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987387, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987389, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987395, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987406, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182987430, "dur":4120, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668512181165166, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181165360, "dur":12220, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181177596, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668512181177598, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181177804, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668512181177810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181180408, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668512181185261, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668512181185440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181185694, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668512181189091, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1668512181189286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181189295, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1668512181191653, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1668512181191825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181192444, "dur":14185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1668512181206811, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181206973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181207121, "dur":112730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181319957, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181320054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181320061, "dur":86184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181406440, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181406672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181406776, "dur":88559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181495444, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181495607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181495615, "dur":98258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181593976, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181594095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181594102, "dur":158752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181752997, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181753141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181753150, "dur":91084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181844336, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181844449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181844456, "dur":101099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181945703, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512181945835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512181945842, "dur":89889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182035830, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182035925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182035932, "dur":127316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182163367, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182163474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182163481, "dur":154987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182318638, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182319003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182319012, "dur":126569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182445682, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182445970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182445979, "dur":213577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182659820, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182659981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182659988, "dur":102164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182762249, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182762340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182762347, "dur":131764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668512182894227, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1668512182894476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182894482, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1668512182896159, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1668512182896304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182896312, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1668512182898037, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1668512182898176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182898182, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1668512182899883, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1668512182900254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668512182900265, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1668512182903404, "dur":83784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181165234, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181165368, "dur":12389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181177757, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668512181178489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181184695, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668512181186675, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668512181186826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181187036, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668512181191350, "dur":2271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668512181193626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181193634, "dur":82770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668512181276515, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181276677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181276685, "dur":86154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181362988, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181363140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181363148, "dur":101937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181465229, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181465370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181465380, "dur":194137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181659614, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181659714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181659721, "dur":254157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181914033, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512181914182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512181914191, "dur":91657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182005998, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182006148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182006157, "dur":126768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182133046, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182133174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182133182, "dur":138656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182271982, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182272658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182272666, "dur":142967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182415781, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182416132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182416140, "dur":99538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182515777, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182516011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182516019, "dur":66136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182582299, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182582415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182582425, "dur":93382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182675904, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182676000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182676008, "dur":99877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182775987, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182776114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668512182776122, "dur":138449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668512182914713, "dur":72471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181165196, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181165363, "dur":12228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181177596, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668512181178592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181181819, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668512181185737, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668512181185909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181185917, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668512181189548, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1668512181189718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181189726, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1668512181192015, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181192209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181193004, "dur":99063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181292176, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181292284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181292293, "dur":84322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181376764, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181376909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181376919, "dur":170083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181547137, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181547248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181547255, "dur":77475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181624876, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181625017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181625026, "dur":47912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181673105, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181673285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181673296, "dur":109238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181782639, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181782797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181782804, "dur":94803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181877735, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512181877854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512181877862, "dur":189861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182067831, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182067933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182067941, "dur":127926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182195984, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182196092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182196100, "dur":155431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182351675, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182352020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182352029, "dur":107142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182459268, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182459510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182459517, "dur":83360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182542983, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182543081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182543088, "dur":83241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182626427, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182626540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182626550, "dur":108414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182735138, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182735314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182735323, "dur":124962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182860384, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182860616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668512182860623, "dur":126365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668512182987144, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1668512182987148, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181165255, "dur":152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181165407, "dur":12183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181177596, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668512181178162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181182794, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668512181186186, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668512181186718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181186942, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668512181189646, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181190203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181190670, "dur":158255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181362401, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181362539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181362548, "dur":116219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181478918, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181479307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181479315, "dur":100023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181579478, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181579626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181579634, "dur":140819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181720563, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181720678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181720686, "dur":255631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181976450, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512181976583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512181976590, "dur":125422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182102292, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182102525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512182102535, "dur":123515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182226250, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182226711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512182226721, "dur":155382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182382272, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182382663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512182382673, "dur":105909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182488731, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182489001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512182489009, "dur":67615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182556785, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182556964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512182556970, "dur":272224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182829292, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182829389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668512182829416, "dur":129045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668512182958635, "dur":28544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181165277, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181165411, "dur":12178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181177596, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1668512181178402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181182781, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1668512181185591, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668512181185781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181185789, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668512181189115, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1668512181189290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181189297, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1668512181191675, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181191972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181193331, "dur":112567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181306117, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181306283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181306292, "dur":85379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181391790, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181391926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181391935, "dur":218141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181610213, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181610326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181610337, "dur":158287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181768777, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181768930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181768939, "dur":92711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181861792, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181861930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181861939, "dur":98326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181960417, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512181960570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512181960581, "dur":121547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182082227, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182082324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512182082331, "dur":128877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182211323, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182211460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512182211470, "dur":154448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182366032, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182366333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512182366341, "dur":107891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182474341, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182474598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512182474605, "dur":232011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182706757, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182706906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512182706915, "dur":105256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182812282, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182812399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668512182812405, "dur":131511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668512182944013, "dur":43168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181165295, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181165416, "dur":12190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181177608, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1668512181178224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181182083, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1668512181185941, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668512181186334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181186342, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668512181189575, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181189773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181190115, "dur":28140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181218372, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181218479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181218485, "dur":115519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181334110, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181334207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181334214, "dur":85619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181419933, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181420033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181420040, "dur":96062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181516198, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181516295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181516302, "dur":170620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181687061, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181687257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181687265, "dur":111086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181798475, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181798598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181798607, "dur":96835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181895730, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181895958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181895970, "dur":95421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181991534, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512181991676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512181991686, "dur":126047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182117838, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182117955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182117963, "dur":125019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182243082, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182243500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182243508, "dur":155499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182399186, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182399518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182399527, "dur":103209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182502842, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182503092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182503099, "dur":65901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182569109, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182569202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182569208, "dur":72775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182642096, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182642200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182642208, "dur":106317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182748618, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182748709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182748716, "dur":128994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668512182877896, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1668512182878474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182879225, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1668512182881926, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1668512182882064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182882220, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1668512182883754, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182883893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182883901, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182886021, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668512182886120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182886126, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668512182887557, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182887684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182887691, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182889942, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668512182890137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182890144, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668512182892513, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1668512182892987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182892993, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1668512182894960, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182895081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182895087, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182896810, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182896957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182896964, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668512182898747, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668512182898888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182898895, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668512182902437, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1668512182902793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668512182902801, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1668512182905078, "dur":82091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181165315, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181165421, "dur":12251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181177673, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668512181178152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181181510, "dur":4447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668512181186469, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1668512181186676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181186960, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1668512181189685, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181189908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181189913, "dur":158917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181348962, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181349130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181349138, "dur":100501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181449909, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181450174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181450184, "dur":114110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181564402, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181564502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181564511, "dur":80539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181645214, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181645378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181645387, "dur":90793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181736321, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181736457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181736466, "dur":91584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181828152, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181828295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181828303, "dur":102097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181930561, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512181930714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512181930723, "dur":91185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182022057, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182022209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182022219, "dur":126247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182148566, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182148671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182148678, "dur":154435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182303337, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182303482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182303489, "dur":126231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182429840, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182430182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182430191, "dur":99383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182529717, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182529863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182529870, "dur":81737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182611711, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182611852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182611860, "dur":109524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182721534, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182721671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182721678, "dur":123425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182845198, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182845288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668512182845295, "dur":128349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668512182973742, "dur":13428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181165335, "dur":90, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181165425, "dur":12211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181177637, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668512181178153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181181708, "dur":4243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668512181186143, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1668512181186374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181187402, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1668512181189807, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1668512181190103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181190108, "dur":63488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1668512181253741, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181253856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181253893, "dur":95383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181349444, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181349675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181349682, "dur":83966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181433772, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181433897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181433904, "dur":97416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181531474, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181531623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181531631, "dur":170327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181702142, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181702389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181702399, "dur":110910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181813414, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512181813521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512181813530, "dur":238074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182051717, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182051812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512182051820, "dur":128930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182180912, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182181035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512182181043, "dur":154299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182335501, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182336123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512182336133, "dur":261503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182597757, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182597868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512182597876, "dur":94288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182692261, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182692354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512182692360, "dur":99853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182792326, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182792446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668512182792453, "dur":136783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668512182929359, "dur":57828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668512182993558, "dur":2880, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668512183036743, "dur": 1626, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668512183035609, "dur": 2798, "ph": "X", "name": "Write chrome-trace events", "args": {} },

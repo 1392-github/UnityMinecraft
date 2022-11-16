@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   serializedClasses:
     UnityEngine.CoreModule:
@@ -74,21 +75,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2058}
+      Script: {instanceID: 1562}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2322}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 5524}
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 5670}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 5858}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 6354}
+      Script: {instanceID: 5708}
+    - Class: 114
+      Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 6408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -98,6 +103,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -129,23 +136,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1562}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 2896}
+      Script: {instanceID: 2910}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 5524}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 5858}
+      Script: {instanceID: 5898}
     - Class: 114
-      Script: {instanceID: 6354}
+      Script: {instanceID: 6408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -309,7 +316,7 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 24352e4287d20985b6bfeb2af3a17394
+      Hash: 0807f57c4974b04f3986c12651f848c4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SeedOK
@@ -375,7 +382,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: c06183fde229ae4e0ef3a41b09f2ce83
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapGenRNG
@@ -495,7 +502,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 8b35aa38a8aed49ed78b4c81346543f8
+      Hash: 12b7ddbed2deaf694634748082b0ce13
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -971,4 +978,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SetSeed.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/noname/Downloads/UnityMinecraft/0.31/x86/Minecraft.exe
+  playerPath: C:/Users/noname/Downloads/UnityMinecraft/0.4/x86/Minecraft.exe

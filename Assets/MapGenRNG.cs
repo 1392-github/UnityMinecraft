@@ -5,6 +5,7 @@ using UnityEngine;
 public class MapGenRNG : MonoBehaviour
 {
     public int? seed = null;
+    public int mapSize = 0;
     void Awake()
     {
         DontDestroyOnLoad(gameObject);

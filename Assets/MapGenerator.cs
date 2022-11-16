@@ -57,6 +57,7 @@ public class MapGenerator : MonoBehaviour
     void Start()
     {
         RNG = GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>();
+        MapSize = RNG.mapSize;
         for (int x = -MapSize * 16; x <= MapSize * 16; x += 16)
         {
             for (int z = -MapSize * 16; z <= MapSize * 16; z += 16)

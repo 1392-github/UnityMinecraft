@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SeedOK : MonoBehaviour
 {
     public GameObject TextInput;
+    public GameObject MapSizeInput;
     public void OK()
     {
         if (TextInput.GetComponent<Text>().text != "")
@@ -20,6 +21,10 @@ public class SeedOK : MonoBehaviour
                 GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().SetSeed(TextInput.GetComponent<Text>().text.GetHashCode());
             }
         }
-        SceneManager.LoadScene("MainScene");
+        if (MapSizeInput.GetComponent<Text>().text != "")
+        {
+            GameObject.Find("MapGenRNG").GetComponent<MapGenRNG>().mapSize = int.Parse(MapSizeInput.GetComponent<Text>().text);
+            SceneManager.LoadScene("MainScene");
+        }
     }
 }
