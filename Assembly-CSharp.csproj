@@ -36,11 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MapGenerator.cs" />
-     <Compile Include="Assets\SeedOK.cs" />
-     <Compile Include="Assets\MapGenRNG.cs" />
+     <Compile Include="Assets\Item.cs" />
+     <Compile Include="Assets\Code\MapGenerator.cs" />
+     <Compile Include="Assets\Code\SeedOK.cs" />
+     <Compile Include="Assets\Code\MapGenRNG.cs" />
      <Compile Include="Assets\Code\PlayerController.cs" />
      <Compile Include="Assets\Code\CameraController.cs" />
+     <Compile Include="Assets\Register.cs" />
+     <Compile Include="Assets\BlockData.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

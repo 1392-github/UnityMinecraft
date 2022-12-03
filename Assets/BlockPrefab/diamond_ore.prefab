@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 191426941927142711}
   - component: {fileID: 815508546568139290}
   - component: {fileID: 1097022585117793511}
+  - component: {fileID: 3979157269338744038}
   m_Layer: 0
   m_Name: diamond_ore
   m_TagString: Untagged
@@ -97,3 +98,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3979157269338744038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410864843946777017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88bd0cff86173bd47872233d8df8f927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlockID: 5
+  DropItem: 0
+  BreakSound: 00000000010000000200000003000000
+  PlaceSound: 00000000010000000200000003000000

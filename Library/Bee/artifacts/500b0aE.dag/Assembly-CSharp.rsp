@@ -350,11 +350,14 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/BlockData.cs"
 "Assets/Code/CameraController.cs"
+"Assets/Code/MapGenerator.cs"
+"Assets/Code/MapGenRNG.cs"
 "Assets/Code/PlayerController.cs"
-"Assets/MapGenerator.cs"
-"Assets/MapGenRNG.cs"
-"Assets/SeedOK.cs"
+"Assets/Code/SeedOK.cs"
+"Assets/Item.cs"
+"Assets/Register.cs"
 -langversion:9.0
 
 /deterministic
