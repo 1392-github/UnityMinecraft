@@ -7,9 +7,17 @@ public class Register : MonoBehaviour
     public List<GameObject> blocks;
     public List<Item> items;
     public List<AudioClip> audioClips;
+    public List<Texture> itemTextures;
+    public List<ShapedCrafting> shapedCrafting;
+    public List<ShapeLessCrafting> shapeLessCrafting;
     // Start is called before the first frame update
     void Start()
     {
+        //items = new List<Item>();
+        //items.Add(new Item(0, 64, 1));
+        //items.Add(new Item(1, 64, 2));
+        //items.Add(new Item(2, 64, 4));
+        //items.Add(new Item(3, 64, 5));
         
     }
 

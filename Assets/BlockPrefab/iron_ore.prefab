@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bd0cff86173bd47872233d8df8f927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlockID: 5
-  DropItem: 0
+  BlockID: 54
+  DropItem: 2
   BreakSound: 00000000010000000200000003000000
   PlaceSound: 00000000010000000200000003000000

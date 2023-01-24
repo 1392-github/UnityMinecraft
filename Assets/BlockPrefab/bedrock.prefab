@@ -111,6 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlockID: 3
-  DropItem: 0
+  DropItem: 4
   BreakSound: 00000000010000000200000003000000
   PlaceSound: 00000000010000000200000003000000

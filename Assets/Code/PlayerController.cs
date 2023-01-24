@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody rigid;
@@ -13,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public Text PosY;
     public Text PosZ;
     public Text Seed;
+    public ItemStack[] inventory = Enumerable.Repeat(new ItemStack(-1, 0), 36).ToArray(); // 모두 (-1,0)으로 초기화
+    public int SelectedSlot = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -85,23 +89,34 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 5))
+            if (!EventSystem.current.IsPointerOverGameObject())
             {
-                hit.collider.gameObject.GetComponent<BlockData>().DestroyBlock();
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit, 5))
+                {
+                    hit.collider.gameObject.GetComponent<BlockData>().DestroyBlock();
+                }
             }
         }
         if (Input.GetMouseButtonDown(1))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 5))
+            if (!EventSystem.current.IsPointerOverGameObject())
             {
-                Vector3 axisSide = GetAxisSide(hit.transform.position - ray.GetPoint(hit.distance));
-                Vector3 blockPos = hit.transform.position - axisSide;
-                Debug.Log(blockPos);
-                GameObject.Find("Register").GetComponent<Register>().PlaceBlock(blockRegister[2], blockPos);
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit, 5))
+                {
+                    Vector3 axisSide = GetAxisSide(hit.transform.position - ray.GetPoint(hit.distance));
+                    Vector3 blockPos = hit.transform.position - axisSide;
+                    Debug.Log(blockPos);
+                    if (GetComponent<Inventory>().value[SelectedSlot].ItemID != -1)
+                    {
+                        
+                        GameObject.Find("Register").GetComponent<Register>().PlaceBlock(blockRegister[GetComponent<Inventory>().value[SelectedSlot].GetItem().placedBlockID], blockPos);
+                        GetComponent<Inventory>().RemoveItem(SelectedSlot, 1);
+                    }
+                }
             }
         }
         if (Input.GetKey("w"))
@@ -137,7 +152,44 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey("e"))
         {
-            //GameObject.Find("Canvas").transform.Find("Inventory").gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.Find("Inventory").gameObject.SetActive(true);
         }
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            SelectedSlot = 0;
+        }
+        if (Input.GetKey(KeyCode.Alpha2))
+        {
+            SelectedSlot = 1;
+        }
+        if (Input.GetKey(KeyCode.Alpha3))
+        {
+            SelectedSlot = 2;
+        }
+        if (Input.GetKey(KeyCode.Alpha4))
+        {
+            SelectedSlot = 3;
+        }
+        if (Input.GetKey(KeyCode.Alpha5))
+        {
+            SelectedSlot = 4;
+        }
+        if (Input.GetKey(KeyCode.Alpha6))
+        {
+            SelectedSlot = 5;
+        }
+        if (Input.GetKey(KeyCode.Alpha7))
+        {
+            SelectedSlot = 6;
+        }
+        if (Input.GetKey(KeyCode.Alpha8))
+        {
+            SelectedSlot = 7;
+        }
+        if (Input.GetKey(KeyCode.Alpha9))
+        {
+            SelectedSlot = 8;
+        }
+        
     }
 }
