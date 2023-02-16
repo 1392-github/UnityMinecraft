@@ -42,7 +42,7 @@ public class CraftingChecker : MonoBehaviour
             //Debug.Log($"CRAFTCHK items = {string.Join(", ", items)}, crafting = {string.Join(", ", crafting)}");
             if (Enumerable.SequenceEqual(items, crafting))
             {
-                craftingInventory.value[4] = shaped.resultItem;
+                craftingInventory.value[4] = shaped.resultItem.Copy();
                 flag = true;
                 return;
             }
@@ -62,9 +62,16 @@ public class CraftingChecker : MonoBehaviour
                     flag = false;
                 }
             }
+            foreach (int item in items)
+            {
+                if (!shapeless.items.Contains(item) && item != -1)
+                {
+                    flag = false;
+                }
+            }
             if (flag)
             {
-                craftingInventory.value[4] = shapeless.resultItem;
+                craftingInventory.value[4] = shapeless.resultItem.Copy();
                 return;
             }
         }

@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// UnityMinecraft 이벤트 객체<br/>
+/// 추가된 버전 : Indev 7<br/>
+/// 사용되는 이벤트 : OnItemInserted, OnItemRemoved
+/// </summary>
 public class InventoryInsertAndRemoveEventArgs
 {
     /// <summary>

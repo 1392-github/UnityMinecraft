@@ -56,20 +56,26 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CloseChestGUI.cs" />
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Code\MapGenerator.cs" />
     <Compile Include="Assets\ItemDisplay.cs" />
     <Compile Include="Assets\ActivatedSlotDisplay.cs" />
     <Compile Include="Assets\Code\CameraController.cs" />
     <Compile Include="Assets\Touchable.cs" />
+    <Compile Include="Assets\ChestRightClick.cs" />
+    <Compile Include="Assets\Chunk.cs" />
     <Compile Include="Assets\Code\SeedOK.cs" />
     <Compile Include="Assets\GetCraftResultItem.cs" />
     <Compile Include="Assets\Code\MapGenRNG.cs" />
+    <Compile Include="Assets\BlockEventArgs.cs" />
     <Compile Include="Assets\Register.cs" />
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\Code\PlayerController.cs" />
+    <Compile Include="Assets\EventArgs.cs" />
     <Compile Include="Assets\ItemStack.cs" />
     <Compile Include="Assets\Inventory.cs" />
+    <Compile Include="Assets\BlockPlaceEventArgs.cs" />
     <Compile Include="Assets\CraftingChecker.cs" />
     <Compile Include="Assets\InventoryGUIClose.cs" />
     <Compile Include="Assets\ShapedCrafting.cs" />

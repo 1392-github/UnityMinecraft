@@ -7,7 +7,8 @@ public class ItemStack
 {
     public int ItemID;
     public int count;
-    
+    public ItemStack Empty => new ItemStack(-1, 0);
+
 
     public ItemStack(int ItemID, int count)
     {
@@ -28,6 +29,10 @@ public class ItemStack
     public Item GetItem()
     {
         return GameObject.Find("Register").GetComponent<Register>().items[ItemID];
+    }
+    public ItemStack Copy()
+    {
+        return new ItemStack(ItemID, count);
     }
     public static bool operator ==(ItemStack a, ItemStack b)
     {

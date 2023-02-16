@@ -4552,6 +4552,8 @@ MonoBehaviour:
   RNG: {fileID: 0}
   MapSize: 0
   Height: 0
+  PerlinNoiseSeed: 0
+  NoiseFre: 0.1
 --- !u!224 &1119594805 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 465438362860944844, guid: 09c4fc3f209f108479f44193978c121b, type: 3}
@@ -7197,6 +7199,9 @@ MonoBehaviour:
   - {fileID: 1543852175261655460, guid: ff721bc0a4e19054499e91ad530727d9, type: 3}
   - {fileID: 8214443392773755508, guid: f073680b1886f8d4b9ba3f1fa80edc5f, type: 3}
   - {fileID: 6410864843946777017, guid: 53195b47ef7b2e241a7f01b2ceded524, type: 3}
+  - {fileID: 5874505729663970040, guid: fecdd1f6dc4e4a34fb0bc6c100e5fbe0, type: 3}
+  - {fileID: 2787578255304316955, guid: 01b4d82d3c87e084a914232bd58e5643, type: 3}
+  - {fileID: 8056458592253175163, guid: 6a89693dc69ffbf44ae665a881f95d58, type: 3}
   items:
   - textureID: 0
     maxStack: 64
@@ -7213,6 +7218,15 @@ MonoBehaviour:
   - textureID: 4
     maxStack: 64
     placedBlockID: 3
+  - textureID: 5
+    maxStack: 64
+    placedBlockID: 6
+  - textureID: 6
+    maxStack: 64
+    placedBlockID: 7
+  - textureID: 7
+    maxStack: 64
+    placedBlockID: 8
   audioClips:
   - {fileID: 8300000, guid: ccb844b06204115449f169b1b08f0054, type: 3}
   - {fileID: 8300000, guid: 454f06f8d77620e49ae9b7686904ad42, type: 3}
@@ -7232,6 +7246,9 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 371b10096bec77944a9d0eea3e30fce6, type: 3}
   - {fileID: 2800000, guid: 2a7042af87c7188448a6a08064a5cfe4, type: 3}
   - {fileID: 2800000, guid: 50c11160e8804e14a8bbd4f11e117c29, type: 3}
+  - {fileID: 2800000, guid: f25db26b2f757ad48b58f09bbfcf61ef, type: 3}
+  - {fileID: 2800000, guid: 919bcc49355836c44aaed007524ce2a7, type: 3}
+  - {fileID: 2800000, guid: 4e1033ad257973449af97d65ecaa0971, type: 3}
   shapedCrafting:
   - recipeStr: '0        '
     charItem: 00000000
@@ -7243,10 +7260,16 @@ MonoBehaviour:
     resultItem:
       ItemID: 3
       count: 16
-  - items: 0300000004000000
+  - items: 06000000
     resultItem:
-      ItemID: 0
+      ItemID: 7
+      count: 4
+  - items: 07000000
+    resultItem:
+      ItemID: 5
       count: 1
+  placedBlocks: []
+  placedChunks: []
 --- !u!82 &1797034820
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7830,7 +7853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 10
-  JumpPower: 10000
+  JumpPower: 12000
   RotateSpeed: 1
   PosX: {fileID: 1499210331}
   PosY: {fileID: 1919112218}
@@ -8339,7 +8362,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Indev 7 (2023-01-24)
+  m_Text: 'Indev 8 (2023-02-16)
 
 '
 --- !u!222 &2041790439

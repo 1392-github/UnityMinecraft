@@ -109,11 +109,17 @@ public class PlayerController : MonoBehaviour
                 {
                     Vector3 axisSide = GetAxisSide(hit.transform.position - ray.GetPoint(hit.distance));
                     Vector3 blockPos = hit.transform.position - axisSide;
+                    BlockRightClickEventArgs e = new BlockRightClickEventArgs { Handled = false, block = hit.transform.gameObject, side = axisSide };
+                    hit.transform.gameObject.GetComponent<BlockData>().OnRightClick.Invoke(e);
+                    if (e.Handled)
+                    {
+                        return;
+                    }
                     Debug.Log(blockPos);
                     if (GetComponent<Inventory>().value[SelectedSlot].ItemID != -1)
                     {
                         
-                        GameObject.Find("Register").GetComponent<Register>().PlaceBlock(blockRegister[GetComponent<Inventory>().value[SelectedSlot].GetItem().placedBlockID], blockPos);
+                        GameObject.Find("Register").GetComponent<Register>().PlaceBlock(GetComponent<Inventory>().value[SelectedSlot].GetItem().placedBlockID, blockPos);
                         GetComponent<Inventory>().RemoveItem(SelectedSlot, 1);
                     }
                 }
@@ -121,23 +127,23 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey("w"))
         {
-            rigid.velocity = transform.rotation * Vector3.forward * MoveSpeed;
+            rigid.velocity = new Vector3((transform.rotation * Vector3.forward * MoveSpeed).x, rigid.velocity.y, (transform.rotation * Vector3.forward * MoveSpeed).z);
         }
         if (Input.GetKey("s"))
         {
-            rigid.velocity = transform.rotation * Vector3.back * MoveSpeed;
+            rigid.velocity = new Vector3((transform.rotation * Vector3.back * MoveSpeed).x, rigid.velocity.y, (transform.rotation * Vector3.back * MoveSpeed).z);
         }
         if (Input.GetKey("a"))
         {
-            rigid.velocity = transform.rotation * Vector3.left * MoveSpeed;
+            rigid.velocity = new Vector3((transform.rotation * Vector3.left * MoveSpeed).x, rigid.velocity.y, (transform.rotation * Vector3.left * MoveSpeed).z);
         }
         if (Input.GetKey("d"))
         {
-            rigid.velocity = transform.rotation * Vector3.right * MoveSpeed;
+            rigid.velocity = new Vector3((transform.rotation * Vector3.right * MoveSpeed).x, rigid.velocity.y, (transform.rotation * Vector3.right * MoveSpeed).z);
         }
         if (Input.GetKey("space"))
         {
-            if (rigid.velocity.y == 0.0f)
+            if (rigid.velocity.y <= 0.01f && rigid.velocity.y >= -0.01f)
             {
                 rigid.AddForce(0, JumpPower, 0);
             }

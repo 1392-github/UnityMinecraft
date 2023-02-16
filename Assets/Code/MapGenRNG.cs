@@ -20,4 +20,8 @@ public class MapGenRNG : MonoBehaviour
     {
         return Random.Range(min, max);
     }
+    public float FloatRandom(float min, float max)
+    {
+        return Random.Range(min, max);
+    }
 }

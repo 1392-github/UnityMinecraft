@@ -27,6 +27,21 @@ public class Inventory : MonoBehaviour
     //public ItemEvent test;
     //test = EditorGUILayout.ObjectField(test, typeof(ItemEvent), false) as ItemEvent;
     //public UnityEditor.MonoScript test2;
+
+    public ItemStack this[int index]
+    {
+        get
+        {
+            return value[index];
+        }
+        set
+        {
+            InventoryInsertAndRemoveEventArgs e = new InventoryInsertAndRemoveEventArgs { FromInventory = null, FromInventoryIndex = -1, Handled = false,
+                InsertedItem = value, ToInventory = this, ToInventoryIndex = index };
+            OnInserted.Invoke(e);
+            this.value[e.ToInventoryIndex] = e.InsertedItem;
+        }
+    }
     void Start()
     {
         value = new ItemStack[size];
