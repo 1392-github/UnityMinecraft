@@ -15,8 +15,18 @@ public class PlayerController : MonoBehaviour
     public Text PosY;
     public Text PosZ;
     public Text Seed;
+    public Text DestroyingTmrText;
+    public Text ItemNameText;
     public ItemStack[] inventory = Enumerable.Repeat(new ItemStack(-1, 0), 36).ToArray(); // 모두 (-1,0)으로 초기화
     public int SelectedSlot = 0;
+    // Drafted
+    public bool[] pressed = new bool[8];
+    [SerializeField] // Temp
+    float DestroyTmr = float.PositiveInfinity;
+    [SerializeField]
+    GameObject DestroyingBlock;
+    [SerializeField]
+    float NameDisplayTmr;
     // Start is called before the first frame update
     void Start()
     {
@@ -86,7 +96,24 @@ public class PlayerController : MonoBehaviour
         PosX.text = $"x = {transform.position.x}";
         PosY.text = $"y = {transform.position.y}";
         PosZ.text = $"z = {transform.position.z}";
-        
+        DestroyingTmrText.text = $"Reaming {DestroyTmr}s";
+        if (GetComponent<Inventory>()[SelectedSlot].ItemID == -1)
+        {
+            ItemNameText.text = "";
+        }
+        else
+        {
+            ItemNameText.text = GetComponent<Inventory>()[SelectedSlot].GetItem().itemName;
+        }
+        if (NameDisplayTmr > 1)
+        {
+            ItemNameText.color = new Color(ItemNameText.color.r, ItemNameText.color.g, ItemNameText.color.b, 1);
+        }
+        else
+        {
+            ItemNameText.color = new Color(ItemNameText.color.r, ItemNameText.color.g, ItemNameText.color.b, NameDisplayTmr);
+        }
+        NameDisplayTmr -= Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
             if (!EventSystem.current.IsPointerOverGameObject())
@@ -95,7 +122,9 @@ public class PlayerController : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit, 5))
                 {
-                    hit.collider.gameObject.GetComponent<BlockData>().DestroyBlock();
+                    DestroyingBlock = hit.collider.gameObject;
+                    DestroyTmr = DestroyingBlock.GetComponent<BlockData>().BreakTime;
+                    //hit.collider.gameObject.GetComponent<BlockData>().DestroyBlock();
                 }
             }
         }
@@ -124,6 +153,27 @@ public class PlayerController : MonoBehaviour
                     }
                 }
             }
+        }
+        if (Input.GetMouseButton(0))
+        {
+            if (DestroyTmr <= 0)
+            {
+                DestroyTmr = float.PositiveInfinity;
+                DestroyingBlock.GetComponent<BlockData>().DestroyBlock();
+            }
+            RaycastHit hit;
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 5))
+            {
+                if (hit.collider.gameObject != DestroyingBlock)
+                {
+                    DestroyTmr = float.PositiveInfinity;
+                }
+            }
+            DestroyTmr -= Time.deltaTime;
+        }
+        else
+        {
+            DestroyTmr = float.PositiveInfinity;
         }
         if (Input.GetKey("w"))
         {
@@ -163,38 +213,47 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Alpha1))
         {
             SelectedSlot = 0;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
             SelectedSlot = 1;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha3))
         {
             SelectedSlot = 2;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha4))
         {
             SelectedSlot = 3;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha5))
         {
             SelectedSlot = 4;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha6))
         {
             SelectedSlot = 5;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha7))
         {
             SelectedSlot = 6;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha8))
         {
             SelectedSlot = 7;
+            NameDisplayTmr = 5f;
         }
         if (Input.GetKey(KeyCode.Alpha9))
         {
             SelectedSlot = 8;
+            NameDisplayTmr = 5f;
         }
         
     }

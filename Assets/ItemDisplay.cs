@@ -100,7 +100,7 @@ public class ItemDisplay : MonoBehaviour
             //    Debug.Log("InsertEvent");
             //    Event.ItemInserted(ref e);
             //}
-            Inventory.OnInserted.Invoke(e);
+            Inventory.OnBeforeInserted.Invoke(e);
             if (e.Handled)
             {
                 return;
@@ -114,7 +114,7 @@ public class ItemDisplay : MonoBehaviour
             //    Debug.Log("RemoveEvent");
             //    Event.ItemRemoved(ref e);
             //}
-            moveItem.GetComponent<ItemDisplay>().Inventory.OnRemoved.Invoke(e);
+            moveItem.GetComponent<ItemDisplay>().Inventory.OnBeforeRemoved.Invoke(e);
             if (e.Handled)
             {
                 return;

@@ -12,8 +12,12 @@ public class Register : MonoBehaviour
     public List<Texture> itemTextures;
     public List<ShapedCrafting> shapedCrafting;
     public List<ShapeLessCrafting> shapeLessCrafting;
+    public List<GameObject> structures;
     public List<GameObject> placedBlocks;
     public List<GameObject> placedChunks;
+    public List<Pickaxe> pickaxes;
+    public List<FuranceRecipe> furanceRecipes;
+    public List<int> furanceFuelItems;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +39,7 @@ public class Register : MonoBehaviour
         GameObject b = Instantiate(blocks[block]);
         b.transform.position = new Vector3(x, y, z);
         BlockData data = b.GetComponent<BlockData>();
+        data.BlockID = block;
         if (!disableSound)
         {
             GameObject.Find("Register").GetComponent<AudioSource>().PlayOneShot(GameObject.Find("Register").GetComponent<Register>().audioClips[data.PlaceSound[Random.Range(0, data.PlaceSound.Count)]]);
@@ -126,5 +131,21 @@ public class Register : MonoBehaviour
     public void PlaceBlock(int block, Vector3 pos, bool disableSound = false)
     {
         PlaceBlock(block, pos.x, pos.y, pos.z, disableSound);
+    }
+    public void PlaceStructure(int structure, float x, float y, float z)
+    {
+        GameObject str = Instantiate(structures[structure]);
+        str.transform.position = new Vector3(x, y, z);
+        foreach (Transform b in str.transform)
+        {
+            placedBlocks.Add(b.gameObject);
+            b.parent = null;
+            //b.position = b.position + str.transform.position;
+        }
+        //Destroy(str);
+    }
+    public void PlaceStructure(int structure, Vector3 pos)
+    {
+        PlaceStructure(structure, pos.x, pos.y, pos.z);
     }
 }

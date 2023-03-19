@@ -5,12 +5,15 @@ ScriptsOnlyBuild:
     - BlockData
     - CameraController
     - ChestRightClick
-    - CloseChestGUI
+    - CloseGUI
     - CraftingChecker
+    - FuranceCheck
+    - FuranceRightClick
     - GetCraftResultItem
     - Inventory
     - InventoryGUIClose
     - ItemDisplay
+    - LevelSave
     - MapGenRNG
     - MapGenerator
     - PlayerController
@@ -25,6 +28,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -35,8 +39,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
+    - FuranceRecipe
     - Item
     - ItemStack
+    - Pickaxe
     - ShapeLessCrafting
     - ShapedCrafting
     UnityEngine.CoreModule:
@@ -232,6 +238,132 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ChestRightClick
     methodName: OnRightClick
+  - assembly: Assembly-CSharp
+    fullTypeName: FuranceRightClick
+    methodName: OnRightClick
+  - assembly: Assembly-CSharp
+    fullTypeName: FuranceCheck
+    methodName: Check
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
+  - assembly: Assembly-CSharp
+    fullTypeName: ItemDisplay
+    methodName: Clicked
   - assembly: Assembly-CSharp
     fullTypeName: ItemDisplay
     methodName: Clicked
@@ -466,47 +598,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1542}
+      Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1544}
     - Class: 114
-      Script: {instanceID: 2078}
+      Script: {instanceID: 1562}
     - Class: 114
-      Script: {instanceID: 2168}
+      Script: {instanceID: 2082}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 2172}
     - Class: 114
-      Script: {instanceID: 2314}
+      Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2362}
+      Script: {instanceID: 2364}
     - Class: 114
-      Script: {instanceID: 2490}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2492}
     - Class: 114
       Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2688}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2692}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3332}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 3150}
     - Class: 114
-      Script: {instanceID: 4256}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 4364}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 4426}
+      Script: {instanceID: 3876}
     - Class: 114
-      Script: {instanceID: 4532}
+      Script: {instanceID: 3994}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4268}
+    - Class: 114
+      Script: {instanceID: 4378}
+    - Class: 114
+      Script: {instanceID: 4440}
+    - Class: 114
+      Script: {instanceID: 4546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,25 +687,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1562}
     - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2688}
+      Script: {instanceID: 2692}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2828}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3150}
     - Class: 114
-      Script: {instanceID: 3196}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -591,6 +731,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
@@ -600,7 +746,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CloseChestGUI
+    className: CloseGUI
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -663,6 +809,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetFuranceResultItem
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -699,12 +851,6 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -739,6 +885,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChestRightClick
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FuranceCheck
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -781,6 +933,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Chunk
+  - hash:
+      serializedVersion: 2
+      Hash: 9ae662962a210fc5d08ad721f048baa7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FuranceRightClick
   - hash:
       serializedVersion: 2
       Hash: 0807f57c4974b04f3986c12651f848c4
@@ -885,7 +1043,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: c9013b9e02d1b27158d12d98c4330b01
+      Hash: b5f4d23e5f5ef205ae6d478cf30515b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Register
@@ -993,13 +1151,19 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelSave
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 90e1592d032477dad933d3dc53dbd78b
+      Hash: 25af520dca94bfe707dc22400219994b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1035,7 +1199,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 4e0887c34d53d04ead2413df9bee1288
+      Hash: 387ad8ac79beba390b095450078185c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Inventory
@@ -1083,7 +1247,7 @@ ScriptsOnlyBuild:
     className: InventoryGUIClose
   - hash:
       serializedVersion: 2
-      Hash: c625eeedfdd6e0eefc1aafa85c1ae47b
+      Hash: 80a75f067524f2443576fe197fa45fee
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BlockData
@@ -1113,6 +1277,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PCMobileDiff
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1139,4 +1309,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SetSeed.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/noname/Downloads/UnityMinecraft/Indev8/x86/Minecraft.exe
+  playerPath: C:/Users/noname/Downloads/UnityMinecraft/Indev9/x86/Minecraft.exe

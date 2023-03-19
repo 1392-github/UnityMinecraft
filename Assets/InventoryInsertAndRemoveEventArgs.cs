@@ -33,4 +33,8 @@ public class InventoryInsertAndRemoveEventArgs
     /// 삽입/삭제된 아이템
     /// </summary>
     public ItemStack InsertedItem;
+    /// <summary>
+    /// 추가 정보 (Indev 9에서 추가)
+    /// </summary>
+    public string tag;
 }

@@ -112,6 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BlockID: 0
   DropItem: 6
+  BreakTime: 2
+  BreakTimeCurrent: 0
   BreakSound: 00000000010000000200000003000000
   PlaceSound: 00000000010000000200000003000000
   OnRightClick:

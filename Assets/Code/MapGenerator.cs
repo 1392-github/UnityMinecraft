@@ -19,6 +19,7 @@ public class MapGenerator : MonoBehaviour
     public float PerlinNoiseSeed;
     public float NoiseFre;
     System.Action<int, float, float, float, bool> place;
+    System.Action<int, float, float, float> stru;
     List<GameObject> blockRegister;
     // Start is called before the first frame update
     void Genererate1Chunk(float x, float z)
@@ -28,6 +29,10 @@ public class MapGenerator : MonoBehaviour
             for (float bz = z; bz < z + 16; bz += 1)
             {
                 int RoofHeight = 63 + Mathf.FloorToInt(Mathf.PerlinNoise(bx * NoiseFre + PerlinNoiseSeed, bz * NoiseFre + PerlinNoiseSeed) * 5);
+                if (RNG.IntRandom(0, 100) == 0)
+                {
+                    stru(0, bx, RoofHeight + 1, bz);
+                }
                 Debug.Log($"PerlinNoise POS - ({bx * NoiseFre + PerlinNoiseSeed} ,{bz * NoiseFre + PerlinNoiseSeed}), PerlinNoise Value - {RoofHeight}");
                 //GameObject grass_block = Instantiate(blockRegister[0]);
                 //GameObject dirt1 = Instantiate(blockRegister[1]);
@@ -38,7 +43,7 @@ public class MapGenerator : MonoBehaviour
                     place(1, bx, i, bz, true);
                 }
                 //place(1, bx, 63, bz, true);
-                place(7, bx, 62, bz, true);
+                place(1, bx, 62, bz, true);
 
 
                 for (int i = 61; i > 1; i--)
@@ -55,7 +60,15 @@ public class MapGenerator : MonoBehaviour
                         //block = Instantiate(blockRegister[4]);
                         place(4, bx, i, bz, true);
                     }
-                    else // 94%
+                    else if (BlockRate < 8) // 2%
+                    {
+                        place(12, bx, i, bz, true);
+                    }
+                    else if (BlockRate < 18) // 10%
+                    {
+                        place(11, bx, i, bz, true);
+                    }
+                    else // 82%
                     {
                         //block = Instantiate(blockRegister[2]);
                         place(2, bx, i, bz, true);
@@ -79,6 +92,8 @@ public class MapGenerator : MonoBehaviour
 
         blockRegister = GameObject.Find("Register").GetComponent<Register>().blocks;
         place = GameObject.Find("Register").GetComponent<Register>().PlaceBlock;
+        stru = GameObject.Find("Register").GetComponent<Register>().PlaceStructure;
+
 
         MapSize = RNG.mapSize;
         for (int x = -MapSize * 16; x <= MapSize * 16; x += 16)

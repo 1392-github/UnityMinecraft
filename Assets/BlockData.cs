@@ -8,6 +8,9 @@ public class BlockData : MonoBehaviour
 {
     public int BlockID;
     public int DropItem;
+    public float BreakTime;
+    //[HideInInspector]
+    public float BreakTimeCurrent;
     public List<int> BreakSound;
     public List<int> PlaceSound;
     public UnityEvent<BlockRightClickEventArgs> OnRightClick;
